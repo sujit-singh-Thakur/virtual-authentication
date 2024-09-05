@@ -3,8 +3,8 @@ import { FaChevronDown, FaCss3, FaHtml5, FaJs } from 'react-icons/fa'
 import { FaJ } from 'react-icons/fa6'
 import { FcSettings } from 'react-icons/fc'
 import SplitPane from 'react-split-pane'
-import CodeMirror from '@uiw/react-codemirror';
-import {javadcript} from '@codemirror/lang-javascript';
+// import CodeMirror from '@uiw/react-codemirror';
+// import {javadcript} from '@codemirror/lang-javascript';
 
 
 const NewProject = () => {
