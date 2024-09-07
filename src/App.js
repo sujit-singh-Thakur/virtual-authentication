@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Home, NewProject } from "./container";
 import { auth, db } from "./config/firebase.config";
 import { collection, doc, onSnapshot, orderBy, query, setDoc } from "firebase/firestore";
@@ -11,6 +12,8 @@ import { SET_USER } from "./context/actions/userActions";
 // import { SET_PROJECTS } from "./context/actions/projectActions";
 import { SET_PROJECTS } from "./context/actions/ProjectActions";
 =======
+=======
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 import { Home,NewProject } from "./container";
 import { auth, db } from "./config/firebase.config";
 import { doc, setDoc } from "firebase/firestore";
@@ -52,6 +55,7 @@ const App = () => {
   }, []);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   useEffect(()=> {
     const projectQuery = query(
       collection(db,"projects"),
@@ -66,6 +70,8 @@ const App = () => {
 
 =======
 >>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
+=======
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
   return (
     <>
       {isLoading ? (
@@ -78,6 +84,7 @@ const App = () => {
             <Route path="/home/*" element={<Home />} />
             <Route path="/newProject" element={<NewProject />} />
 <<<<<<< HEAD
+<<<<<<< HEAD
             {/* if the route not match */}
             <Route path="*" element={<Navigate to={"/home"} />} />
           </Routes>
@@ -87,6 +94,18 @@ const App = () => {
   );
 };
 
+=======
+
+            {/* if the route not match */}
+            <Route path="*" element={<Navigate to={"/home"} />} />
+          </Routes>
+        </div>
+      )}
+    </>
+  );
+};
+
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 =======
 
             {/* if the route not match */}

@@ -20,9 +20,13 @@
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "react-split-pane": "^0.1.92",
     "redux": "^5.0.1",
     "uuid": "^10.0.0",
+=======
+    "redux": "^5.0.1",
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 =======
     "redux": "^5.0.1",
 >>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292

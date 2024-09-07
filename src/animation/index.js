@@ -6,10 +6,17 @@ export const fadeInOut = {
 
 export const slideUpOut = {
 <<<<<<< HEAD
+<<<<<<< HEAD
   initial: { opacity: 0, y: 50 },
   animate: { opacity: 1, y: 0 },
   exit: { opacity: 0, y: 50 },
 };
+=======
+  initial: { opacity: 0,y :50 },
+  animate: { opacity: 1, y :0 },
+  exit: { opacity: 0, y : 50 },
+};
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 =======
   initial: { opacity: 0,y :50 },
   animate: { opacity: 1, y :0 },

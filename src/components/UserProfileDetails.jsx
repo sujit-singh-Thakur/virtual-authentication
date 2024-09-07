@@ -2,14 +2,20 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { AnimatePresence, motion } from "framer-motion";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { FaChevronDown } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { Menus, signOutAction } from "../utils/helpers";
 =======
+=======
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 import { FaChevronDown } from "react-icons/fa";
 import { signOutAction } from "../utils/helpers";
 import { Link } from "react-router-dom";
 import { Menus } from "../utils/helpers";
+<<<<<<< HEAD
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
+=======
 >>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 import { slideUpOut } from "../animation";
 
@@ -22,6 +28,10 @@ const UserProfileDetails = () => {
         className="w-14 h-14 flex items-center justify-center rounded-xl overflow-hidden cursor-pointer bg-emerald-500"
         //featching the user info from the state its self
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 =======
 
 >>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
@@ -46,6 +56,7 @@ const UserProfileDetails = () => {
           </>
         )}
       </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <motion.div
         onClick={() => setIsMenu(!isMenu)}
@@ -82,6 +93,8 @@ const UserProfileDetails = () => {
         )}
       </AnimatePresence>
 =======
+=======
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
       
       <motion.div
       onClick={() => setIsMenu(!isMenu)}
@@ -119,6 +132,9 @@ const UserProfileDetails = () => {
         </motion.div>
        )}
        </AnimatePresence>
+<<<<<<< HEAD
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
+=======
 >>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
     </div>
   );

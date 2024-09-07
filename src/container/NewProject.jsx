@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import { FaChevronDown, FaCss3, FaHtml5, FaJs } from "react-icons/fa6";
 import { FcSettings } from "react-icons/fc";
@@ -284,6 +285,8 @@ const NewProject = () => {
 
 export default NewProject;
 =======
+=======
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
 import React from 'react'
 import { FaChevronDown, FaCss3, FaHtml5, FaJs } from 'react-icons/fa'
 import { FaJ } from 'react-icons/fa6'
@@ -384,4 +387,7 @@ const NewProject = () => {
 }
 
 export default NewProject
+<<<<<<< HEAD
+>>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
+=======
 >>>>>>> db656796fd7aaf507530c237ec4a38e5599a9292
